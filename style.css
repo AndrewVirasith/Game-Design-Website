@@ -113,7 +113,7 @@ button{
     font-family: 'Merriweather', serif;
     width: 100%;
     height: 100vh;
-    background:rgb(255, 255, 255);
+    background:rgb(226, 226, 226);
 }
 
 .contents h1{
@@ -123,7 +123,7 @@ button{
     text-align: left;
     margin-top: 6%;
     margin-left: 10%;
-    font-size: 8vh;
+    font-size: 6vh;
     text-decoration: underline;
 }
 
@@ -137,4 +137,70 @@ button{
     font-size: large;
     text-decoration: underline;
 }
+.stuff{
+    width: 80%;
+    height: 30%;
+    top: 25%;
+    margin: 0 auto;
+    position: relative;
+}
+.stuff a{
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+    transition: 1s;
+}
 
+.a{
+    background: black;
+
+    width:40%;
+    height: 100%;
+    float:left;
+    border-radius: 25px;
+    outline: 5px;
+}
+.a img{
+    background: black;
+    border:3px solid rgb(0, 0, 0);
+    width:100%;
+    height: 100%;
+    float:left;
+    border-radius: 25px;
+    outline: 5px;
+}
+
+
+.b{
+    margin-left: 40%;
+    width:60%;
+    height: 100%;
+    border:1px solid rgb(226, 226, 226);
+}
+.b p{
+    margin-top: 12%;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+.stuff2{
+    width: 80%;
+    height: 30%;
+    top: 25%;
+    margin: 1% auto;
+    position: relative;
+}
+.stuff2 a{
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+    transition: 1s;
+}
+
+.stuff a :hover{
+    transform: scale(1.05);
+}
+
+.stuff2 a :hover{
+    transform: scale(1.05);
+}
